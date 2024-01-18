@@ -1,2 +1,3 @@
-# i-need-experience-haha
-I wanted to create a memorable first project for BEYA 2023.
+# practice sheets.
+i will commit to programming because why not.
+
