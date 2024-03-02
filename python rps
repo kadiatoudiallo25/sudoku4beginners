@@ -38,6 +38,4 @@ while playing == True:
 print('Thanks for playing!')        
 
 
-#simple rock paper scissors i made on a whim, 
-#the total package was a bit overwhelming 
-#and trying to make everything connect sucked!
+
