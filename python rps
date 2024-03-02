@@ -1,1 +1,43 @@
-print ('will update this later today')
+#function that allows there to be random choices for integers or data types.
+import random
+
+#the options for the game
+options= ('rock','paper','scissors')
+  
+#to loop the game
+playing= True
+
+while playing == True:
+    
+    player= None
+    
+    #computer now has to use random funciton to be able to play
+    computer= random.choice(options)
+
+    #time for player to choose:
+    while player not in options:
+        player=input('choose one: rock, paper, or scissors: ')
+    
+    #to display the choices for players
+    print(f'player: {player}')
+    print(f'computer: {computer}')
+    
+    #for winning, losing, and ties
+    if player == computer:
+        print('its a tie!')
+    elif player == 'rock' and computer == 'scissors':   
+        print('you win!')
+    elif player == 'paper' and computer == 'rock':   
+        print('you win!')
+    elif player == 'scissors' and computer == 'paper':   
+        print('you win!')
+    else:
+        print('you lose.')
+    if not input('Play again? yes or no: ') == 'yes':
+        playing = False
+print('Thanks for playing!')        
+
+
+#simple rock paper scissors i made on a whim, 
+#the total package was a bit overwhelming 
+#and trying to make everything connect sucked!
