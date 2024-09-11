@@ -1,1 +1,1 @@
-i really like sudoky, so i will be putting something interesting here soon.
+i really like sudoku, so i will be putting something interesting here soon.
